@@ -1,0 +1,26 @@
+{
+  "name": "surrim/gpx-minifier",
+  "description": "Removes GPX metadata, keeps only geodata without losing accuracy",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "surrim",
+      "email": "root@surrim.org",
+      "homepage": "https://surrim.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Surrim\\GpxMinifier\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.0",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  }
+}
