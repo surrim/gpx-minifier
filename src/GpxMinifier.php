@@ -12,7 +12,7 @@ class GpxMinifier {
     } catch (Exception) {
       return null;
     }
-    return static::minifyGpx($gpx);
+    return self::minifyGpx($gpx);
   }
 
   public static function minifyGpx(SimpleXMLElement $gpx): ?SimpleXMLElement {
